@@ -1,0 +1,20 @@
+POST http://localhost:8080/accounts
+
+
+###
+
+POST http://localhost:8080/accounts/1/deposit
+
+800
+
+###
+
+POST http://localhost:8080/accounts/1/withdraw
+
+800
+
+###
+
+GET http://localhost:8080/accounts/1/balance
+
+###
